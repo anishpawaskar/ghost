@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-container {
+    grid-area: postImg;
+    padding: 1rem;
+    max-height: 400px;
+}
+
+.post-img {
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+}
+
+.post-box {
+    grid-area: postBox;
+    max-width: 400px;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.color-cyan {
+    color: #7dd3fc;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.color-secondry {
+    color: var(--secondry-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.post-time-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brick-icon-wrapper {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--secondry-color);
+}
+
+.fs-1_5 {
+    font-size: 1.3rem;
+}
+
+.brick-icon-wrapper .brick-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.username {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.date {
+    margin-top: 0;
+}
+
+
+
