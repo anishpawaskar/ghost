@@ -2,6 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "nav nav nav"
-  "header header header";
+  "header header header"
+  "postImg postImg postBox"
+  "posts posts posts"
+  "footer footer footer";
 }
 

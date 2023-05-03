@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
+    padding: 1rem 0 0 1rem;
 }
 
 .list-nav-non-bullet {
@@ -28,12 +29,14 @@
     font-weight: 600;
     font-size: 0.8rem;
     color: var(--secondry-color);
+    cursor: pointer;
 }
 
 .nav-icon {
     background: none;
     border: none;
     color: var(--secondry-color);
+    cursor: pointer;
 }
 
 .btn-w-h-30-p0-3-0 {
@@ -58,6 +61,7 @@
 }
 
 .subscribe {
+    cursor: pointer;
     letter-spacing: 0.5px;
     color: var(--secondry-color);
     background: none;
