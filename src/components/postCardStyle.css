@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-card {
+    max-width: 400px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.post-card-img {
+    width: 100%;
+    height: auto;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.post-des {
+    color: var(--secondry-color);
+    font-size: 1.1rem;
+}
+
+.post-time-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brick-icon-wrapper {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--secondry-color);
+}
+
+.fs-1_5 {
+    font-size: 1.3rem;
+}
+
+.brick-icon-wrapper .brick-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.username {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.date {
+    margin-top: 0;
+}
