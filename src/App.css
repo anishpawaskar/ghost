@@ -1,6 +1,7 @@
 .ghost-site-layout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "nav nav nav nav";
+  grid-template-areas: "nav nav nav nav"
+  "header header header header";
 }
 
