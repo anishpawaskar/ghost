@@ -62,3 +62,32 @@
 .date {
     margin-top: 0;
 }
+
+@media screen and (max-width: 880px) {
+    .post-card {
+        max-width: 300px;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--secondry-color);
+    }
+
+    .post__text-box .color-cyan {
+        font-size: 0.7rem;
+    }
+
+    .post__text-box > h1 {
+        font-size: 1.4rem;
+    }
+
+    .post-des {
+        font-size: 1rem;
+    }
+
+    .brick-icon-wrapper {
+        height: 35px;
+        width: 35px;
+    }
+
+    .brick-icon {
+        font-size: 0.8rem;
+    }
+}

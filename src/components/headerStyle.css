@@ -43,3 +43,23 @@
     letter-spacing: 0.5px;
     color: var(--secondry-color);
 }
+
+@media screen and (max-width: 605px) {    
+    .icon-wrapper .brick-icon {
+        font-size: 1.2rem;
+    }
+    
+    .heading-main {
+        font-size: 2rem;
+    }
+    
+    .heading-des {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .heading-des {
+        font-size: 0.8rem;
+    }
+}

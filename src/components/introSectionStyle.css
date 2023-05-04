@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
+.intro-section {
+    grid-area: intro;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
 .img-container {
-    grid-area: postImg;
     padding: 1rem;
     max-height: 400px;
 }
 
 .post-img {
-    display: block;
-    margin: 0 auto;
     max-height: 400px;
 }
 
@@ -72,6 +77,61 @@
 
 .date {
     margin-top: 0;
+}
+
+@media  screen and (max-width: 1100px) {
+    .post-img {
+        max-height: 300px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .post-img {
+        max-height: 200px;
+    }
+
+    .post-box {
+        max-width: 300px;
+        margin-top: 0;
+    }
+
+    .color-cyan {
+        font-size: 14px;
+    }
+
+    .intro__post__text-box > h1 {
+        font-size: 1.7rem;
+    }
+
+    .color-secondry {
+        font-size: 1rem;
+    }
+
+    .brick-icon-wrapper {
+        height: 35px;
+        width: 35px;
+    }
+
+    .brick-icon {
+        font-size: 1rem;
+    }
+
+    .username {
+        font-size: 0.8rem;
+    }
+
+    .date {
+        font-size: 0.8rem;
+    }
 }
 
 

@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: "nav nav nav"
   "header header header"
-  "postImg postImg postBox"
+  "intro intro intro"
   "posts posts posts"
   "footer footer footer";
 }

@@ -4,7 +4,7 @@ import "./introSectionStyle.css";
 
 export const IntroSectin = () => {
   return (
-    <>
+    <div className="intro-section">
       <div className="img-container">
         <img
           className="post-img"
@@ -33,6 +33,6 @@ export const IntroSectin = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

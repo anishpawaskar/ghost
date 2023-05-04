@@ -70,3 +70,28 @@
     border-radius: 0.8rem;
     font-weight: 600;
 }
+
+.settings-container, .hamburger-container {
+    display: none;
+} 
+
+@media screen and (max-width: 605px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .nav {
+        padding: 1rem 2rem;
+    }
+
+    .settings-container, .hamburger-container {
+        display: block;
+    }
+}
+
+.mobile-nav-icons {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--secondry-color);
+}
