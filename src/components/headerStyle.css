@@ -1,65 +1,65 @@
 .header {
-    grid-area: header;
-    background-color: var(--primary-color);
-    color: white;
-    position: relative;
-    width: 100%;
-    max-height: 300px;
-    min-height: 400px;
+  grid-area: header;
+  background-color: var(--primary-color);
+  color: white;
+  position: relative;
+  width: 100%;
+  max-height: 300px;
+  min-height: 400px;
 }
 
 .heading-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 400px;
-    max-height: 300px;
-    padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  max-height: 300px;
+  padding: 1rem;
 }
 
 .heading-main {
-    text-align: center;
-    margin: 0;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
 }
 
 .icon-wrapper {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .icon-wrapper .brick-icon {
-    font-size: 2rem;
-    color: var(--secondry-color);
+  font-size: 2rem;
+  color: var(--secondry-color);
 }
 
 .heading-des {
-    margin: 0.5rem 0;
-    font-size: 1.3rem;
-    letter-spacing: 0.5px;
-    color: var(--secondry-color);
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  color: var(--secondry-color);
 }
 
-@media screen and (max-width: 605px) {    
-    .icon-wrapper .brick-icon {
-        font-size: 1.2rem;
-    }
-    
-    .heading-main {
-        font-size: 2rem;
-    }
-    
-    .heading-des {
-        font-size: 1rem;
-    }
+@media screen and (max-width: 605px) {
+  .icon-wrapper .brick-icon {
+    font-size: 1.2rem;
+  }
+
+  .heading-main {
+    font-size: 2rem;
+  }
+
+  .heading-des {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 487px) {
-    .heading-des {
-        font-size: 0.8rem;
-    }
+  .heading-des {
+    font-size: 0.8rem;
+  }
 }
